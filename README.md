@@ -106,12 +106,7 @@ them to customize other plugins:
 - `g:seoul256_current_fg` - Current foreground color in ANSI code
 - `g:seoul256_current_bg` - Current background color in ANSI code
 
-Original colorscheme author
+Original color scheme author
 -------
 
 Junegunn Choi
-
-License
--------
-
-MIT
