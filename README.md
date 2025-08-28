@@ -1,14 +1,14 @@
 ```
-"  _____             _ ___ ___ ___      "
-" |   __|___ ___ _ _| |_  |  _|  _|     "
-" |__   | -_| . | | | |  _|_  | . |     "
-" |_____|___|___|___|_|___|___|___|.vim "
+"  _____             _ ___ ___ ___       "
+" |   __|___ ___ _ _| |_  |  _|  _|      "
+" |__   | -_| . | | | |  _|_  | . |      "
+" |_____|___|___|___|_|___|___|___|.nvim "
 ```
 
-seoul256.vim ![travis-ci](https://travis-ci.org/junegunn/seoul256.vim.svg?branch=master)
+seoul256.vim
 ------------
 
-*seoul256.vim* is a low-contrast Vim color scheme based on [Seoul Colors](https://www.seoul.go.kr/seoul/color.do).
+*seoul256.nvim* is a Lua rewrite of *seoul256.vim*, which is a low-contrast Vim color scheme based on [Seoul Colors](https://www.seoul.go.kr/seoul/color.do).
 Works on 256-color terminal or on GVim.
 
 ### seoul256
@@ -106,35 +106,8 @@ them to customize other plugins:
 - `g:seoul256_current_fg` - Current foreground color in ANSI code
 - `g:seoul256_current_bg` - Current background color in ANSI code
 
-iTerm2 color scheme
--------------------
-
-- [Official iTerm2 color scheme](iterm2)
-- [seoul256-iTerm2](https://github.com/mikker/seoul256-iTerm2) by
-[Mikkel Malmberg](https://github.com/mikker).
-
-Emacs color theme
------------------
-
-- [seoul256-emacs](https://github.com/anandpiyer/seoul256-emacs)
-
-kitty color theme
------------------
-
-- [seoul256-kitty](https://github.com/guilhermedeandrade/seoul256-kitty)
-
-Ghostty color theme
--------------------
-
-- [seoul256-ghostty](https://github.com/jcmorrow/seoul256-ghostty)
-
-Zed color theme
----------------
-
-- [seoul256-zed](https://github.com/jcmorrow/seoul256-zed)
-
-Author
-------
+Original colorscheme author
+-------
 
 Junegunn Choi
 
