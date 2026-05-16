@@ -2,7 +2,20 @@ local util = require("seoul256.util")
 
 local M = { groups = {} }
 local groups = {
-  "legacy",
+  "treesitter",
+  "lsp",
+  "gitsigns",
+  "syntax",
+  "ui",
+  "spell",
+  "rainbow",
+  "todo",
+  "diagnostics",
+  "todo-txt",
+  "indent-blankline",
+  "cmp",
+  "mini",
+  "diff",
 }
 
 -- Reset highlights
@@ -27,6 +40,20 @@ end
 
 vim.g.ruby_operators = 1
 vim.g.indent_guides_auto_colors = 0
+
+-- vim.api.nvim_create_autocmd("LspTokenUpdate", {
+--   callback = function(args)
+--     local token = args.data.token
+--     if token.type == "variable" and not token.modifiers.readonly then
+--       vim.lsp.semantic_tokens.highlight_token(
+--         token,
+--         args.buf,
+--         args.data.client_id,
+--         "MyMutableVariableHighlight"
+--       )
+--     end
+--   end,
+-- })
 
 M.setup = function()
   for _, module in ipairs(groups) do
