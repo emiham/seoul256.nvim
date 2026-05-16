@@ -1,5 +1,5 @@
-colors = require("seoul256.colors")
-util = require("seoul256.util")
+local colors = require("seoul256.colors")
+local util = require("seoul256.util")
 
 return {
   Normal = colors.normal,
