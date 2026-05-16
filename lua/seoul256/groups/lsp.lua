@@ -1,0 +1,69 @@
+local colors = require("seoul256/colors")
+
+return {
+  --   LspSignatureActiveParameter = {}, -- TODO
+  --   LspCodeLens = {}, -- TODO
+  --   LspDiagnosticsDefaultError = { fg = colors.error },
+  --   LspDiagnosticsDefaultHint = { fg = colors.purple },
+  --   LspDiagnosticsDefaultInformation = { fg = colors.paleblue },
+  --   LspDiagnosticsDefaultWarning = { fg = colors.yellow },
+  --   LspDiagnosticsFloatingError = { fg = colors.error },
+  --   LspDiagnosticsFloatingHint = { fg = colors.purple },
+  --   LspDiagnosticsFloatingInformation = { fg = colors.paleblue },
+  --   LspDiagnosticsFloatingWarning = { fg = colors.yellow },
+  --   LspDiagnosticsSignError = { fg = colors.error },
+  --   LspDiagnosticsSignHint = { fg = colors.purple },
+  --   LspDiagnosticsSignInformation = { fg = colors.paleblue },
+  --   LspDiagnosticsSignWarning = { fg = colors.yellow },
+  --   LspDiagnosticsUnderlineError = { undercurl = true, sp = colors.error },
+  --   LspDiagnosticsUnderlineHint = { undercurl = true, sp = colors.paleblue },
+  --   LspDiagnosticsUnderlineInformation = {
+  --     undercurl = true,
+  --     sp = colors.paleblue,
+  --   },
+  --   LspDiagnosticsUnderlineWarning = { undercurl = true, sp = colors.yellow },
+  --   LspDiagnosticsVirtualTextError = { fg = colors.error },
+  --   LspDiagnosticsVirtualTextHint = { fg = colors.purple },
+  --   LspDiagnosticsVirtualTextInformation = { fg = colors.paleblue },
+  --   LspDiagnosticsVirtualTextWarning = { fg = colors.yellow },
+  --   LspInlayHint = {}, -- TODO
+  --   LspReferenceText = { fg = colors.accent, bg = colors.highlight },
+  --   LspReferenceRead = { fg = colors.accent, bg = colors.highlight },
+  --   LspReferenceWrite = { fg = colors.accent, bg = colors.highlight },
+  --   LspReferenceTarget = { fg = colors.accent, bg = colors.highlight },
+  --   ["@lsp.type.class"] = { fg = colors.class }, -- Identifiers that declare or reference a class type
+  --   ["@lsp.type.comment"] = { fg = colors.comment }, -- Tokens that represent a comment
+  --   ["@lsp.type.decorator"] = { fg = colors.none }, -- Identifiers that declare or reference decorators and annotations
+  --   ["@lsp.type.enum"] = { fg = colors.none }, -- Identifiers that declare or reference an enumeration type
+  --   ["@lsp.type.enumMember"] = { fg = colors.none }, -- Identifiers that declare or reference an enumeration property, constant, or member
+  --   ["@lsp.type.event"] = { fg = colors.none }, -- Identifiers that declare an event property
+  --   ["@lsp.type.function"] = { fg = colors.func }, -- Identifiers that declare a function
+  --   ["@lsp.type.interface"] = { fg = colors.func }, -- Identifiers that declare or reference an interface type
+  --   ["@lsp.type.keyword"] = { fg = colors.keyword }, -- Tokens that represent a language keyword
+  --   ["@lsp.type.macro"] = { fg = colors.macro }, -- Identifiers that declare a macro
+  --   ["@lsp.type.method"] = { fg = colors.func }, -- Identifiers that declare a member function or method
+  --   ["@lsp.type.modifier"] = { fg = colors.none }, -- Tokens that represent a modifier
+  --   ["@lsp.type.namespace"] = { fg = colors.none }, -- Identifiers that declare or reference a namespace, module, or package
+  --   ["@lsp.type.number"] = { fg = colors.number }, -- Tokens that represent a number literal
+  --   ["@lsp.type.operator"] = { fg = colors.operator }, -- Tokens that represent an operator
+  --   ["@lsp.type.parameter"] = { fg = colors.none }, -- Identifiers that declare or reference a function or method parameters
+  --   ["@lsp.type.property"] = { fg = colors.none }, -- Identifiers that declare or reference a member property, member field, or member variable
+  --   ["@lsp.type.regexp"] = { fg = colors.none }, -- Tokens that represent a regular expression literal
+  --   ["@lsp.type.string"] = { fg = colors.string }, -- Tokens that represent a string literal
+  --   ["@lsp.type.struct"] = { fg = colors.structure }, -- Identifiers that declare or reference a struct type
+  --   ["@lsp.type.type"] = { fg = colors.type }, -- Identifiers that declare or reference a type that is not covered above
+  --   ["@lsp.type.typeParameter"] = { fg = colors.none }, -- Identifiers that declare or reference a type parameter
+  --   ["@lsp.type.variable"] = { fg = colors.dark_fg }, -- Identifiers that declare or reference a local or global variable
+  --   ["@lsp.mod.abstract"] = { fg = colors.none }, -- Types and member functions that are abstract
+  --   ["@lsp.mod.async"] = { fg = colors.none }, -- Functions that are marked async
+  --   ["@lsp.mod.builtin"] = { fg = colors.builtin },
+  --   ["@lsp.mod.declaration"] = { fg = colors.none }, -- Declarations of symbols
+  --   ["@lsp.mod.defaultLibrary"] = { fg = colors.default_library }, -- Symbols that are part of the standard library
+  --   ["@lsp.mod.definition"] = { fg = colors.type }, -- Definitions of symbols, for example, in header files
+  --   ["@lsp.mod.deprecated"] = { fg = colors.deprecated }, -- Symbols that should no longer be used
+  --   ["@lsp.mod.documentation"] = { fg = colors.none }, -- Occurrences of symbols in documentation
+  --   ["@lsp.mod.modification"] = { fg = colors.none }, -- Variable references where the variable is assigned to
+  ["@lsp.mod.readonly"] = colors.constant, -- Readonly variables and member fields (constants)
+  ["@lsp.typemod.variable.readonly"] = colors.constant, -- Readonly variables and member fields (constants)
+  --   ["@lsp.mod.static"] = { fg = colors.none }, -- Class members (static members)
+}

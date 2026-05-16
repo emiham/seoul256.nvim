@@ -1,0 +1,25 @@
+colors = require("seoul256.colors")
+
+return {
+  TodoBgHACK = colors.todo,
+  TodoFgHACK = colors.todo,
+  TodoSignHACK = colors.todo,
+  TodoBgPERF = colors.todo,
+  TodoFgPERF = colors.todo,
+  TodoSignPERF = colors.todo,
+  TodoBgTODO = colors.todo,
+  TodoFgTODO = colors.todo,
+  TodoSignTODO = colors.todo,
+  TodoBgFIX = colors.todo,
+  TodoFgFIX = colors.todo,
+  TodoSignFIX = colors.todo,
+  TodoBgWARN = colors.todo,
+  TodoFgWARN = colors.todo,
+  TodoSignWARN = colors.todo,
+  TodoBgTEST = colors.todo,
+  TodoFgTEST = colors.todo,
+  TodoSignTEST = colors.todo,
+  TodoBgNOTE = colors.todo,
+  TodoFgNOTE = colors.todo,
+  TodoSignNOTE = colors.todo,
+}
