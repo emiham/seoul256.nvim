@@ -1,5 +1,5 @@
 local rgb_map = require("seoul256.rgb_map")
-util = require("seoul256.util")
+local util = require("seoul256.util")
 
 return {
   black = util.hi({ 239, 239 }, { 0, 0 }),
