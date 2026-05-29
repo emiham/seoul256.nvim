@@ -8,7 +8,11 @@
 seoul256.vim
 ------------
 
-*seoul256.nvim* is a Lua rewrite of *seoul256.vim*, which is a low-contrast Vim color scheme based on [Seoul Colors](https://www.seoul.go.kr/seoul/color.do).
+*seoul256.nvim* is a Lua rewrite of *seoul256.vim*, which is a low-contrast Vim
+color scheme based on [Seoul Colors](https://www.seoul.go.kr/seoul/color.do).
+
+Please liberally open issues for missing highlights/plugins.
+
 Works on 256-color terminal or on GVim.
 
 ### seoul256
