@@ -62,10 +62,15 @@ return {
   -- :map, listchars
   SpecialKey = util.hi({ 59, 145 }, { 0, 0 }),
 
-  StatusLine = util.hi({ 95, 95 }, { 187, 187 }),
-  StatusLineNC = util.hi(
-    { util.dark_bg + 2, util.light_bg - 2 },
-    { 187, 238 }
+  StatusLine = vim.tbl_extend(
+    "error",
+    util.hi({ 95, 95 }, { 187, 187 }),
+    { bold = true, reverse = true }
+  ),
+  StatusLineNC = vim.tbl_extend(
+    "error",
+    util.hi({ util.dark_bg + 2, util.light_bg - 2 }, { 187, 238 }),
+    { bold = true, reverse = true }
   ),
   StatusLineTerm = vim.tbl_extend(
     "error",
