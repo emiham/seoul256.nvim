@@ -58,4 +58,7 @@ return {
   -- hi SpecialComment ctermfg=
   -- hi Tag ctermfg=
   -- hi Debug ctermfg=
+
+  typescriptProp = colors.property_,
+  typescriptIdentifierName = colors.identifier,
 }
